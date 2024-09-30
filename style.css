@@ -119,3 +119,81 @@ body {
     box-shadow: #ff9292 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
     transform: scale(1.05) rotate(-1deg);
   }
+
+
+
+
+
+
+
+  /* Responsive Media Queries for Mobile Devices */
+
+@media (max-width: 768px) {
+    .main {
+        margin-top: 42%;
+    }
+
+    .main-img img {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: auto;
+    }
+
+    .hours, .minuts, .seconds {
+        font-size: 1.6rem;
+    }
+
+    .coluns1, .coluns2 {
+        font-size: 1.6rem;
+    }
+
+    .watch button {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin-top: 45%;
+    }
+
+    .main-img img {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+    }
+
+    .hours, .minuts, .seconds {
+        font-size: 1.4rem;
+    }
+    
+    .seconds{
+        margin-left: 18px;
+    }
+
+    .minuts{
+        margin-left: 19px;
+    }
+
+    .coluns1{
+        font-size: 1.4rem;
+        margin-left: 14px;
+    }
+    
+    .coluns2 {
+        font-size: 1.4rem;
+        margin-left: 16px;
+    }
+
+
+    .watch button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
